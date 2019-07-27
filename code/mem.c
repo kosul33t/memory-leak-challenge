@@ -8,7 +8,7 @@ void vuln(char * string)
         strcpy(buffer, string);
 	printf(buffer);
         printf("\n");
-	char * fl = "flag{";
+	char * fl = "XXXXXXXX";
 	printf("\n[+] parte1 em: %p\n", fl);
 }
 
